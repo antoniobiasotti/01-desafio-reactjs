@@ -1,7 +1,9 @@
 .header {
+     font-weight: bold;
      color: var(--blue);
-     background: var(--gray-600);
+     background: var(--gray-700);
      display: flex;
+     flex: 1;
      justify-content: center;
      align-items: center;
      padding: 1.25rem 0rem;
