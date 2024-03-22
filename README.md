@@ -42,3 +42,7 @@ export default {
 - Listas e chaves no ReactJS
 - Propriedades
 - Componentização
+
+****
+### CSS Global
+- Aplicando variáveis de estilo com o seletor :root
