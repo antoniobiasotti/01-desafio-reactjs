@@ -1,0 +1,25 @@
+.tasklist {
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     gap: 35.5rem;
+
+     margin-top: 2rem;
+}
+
+.tarefasCriadas {
+     color: var(--blue);
+}
+
+.tarefasConcluidas {
+     color: var(--purple)
+}
+
+.tasktable {
+     color: var(--gray-300);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+}

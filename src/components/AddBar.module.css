@@ -1,22 +1,25 @@
 .addbar {
      display: flex;
-     justify-content: center;
      align-items: flex-start;
+     justify-content: center;
      gap: 0.5rem;
      padding: 1.25rem 0rem;
      /* background: var(--gray-400) */
 }
 
 .addbar textarea {
+     color: var(--gray-100);
      background: var(--gray-500);
      width: 50%;
 
      border: 0;
+     padding: 0.5rem 1rem;
      height: 2rem;
      border-radius: 4px;
 
      resize: none;
      outline: none;
+
 }
 
 .addbar button {
