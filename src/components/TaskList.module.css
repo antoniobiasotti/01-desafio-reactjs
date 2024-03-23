@@ -2,17 +2,33 @@
      display: flex;
      align-items: flex-start;
      justify-content: center;
-     gap: 34rem;
+     gap: 35rem;
 
      margin-top: 2rem;
 }
 
+.tasklist button {
+     background: var(--gray-400);
+     color: var(--gray-100);
+     border: 1px solid transparent;
+     border-radius: 1rem;
+     padding: 0.25rem 0.45rem;
+}
+
 .tarefasCriadas {
      color: var(--blue);
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     gap: 0.5rem;
 }
 
 .tarefasConcluidas {
-     color: var(--purple)
+     color: var(--purple);
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     gap: 0.5rem;
 }
 
 .tasktable {
