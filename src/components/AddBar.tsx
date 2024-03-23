@@ -1,3 +1,4 @@
+import { PlusCircle } from 'phosphor-react';
 import styles from './AddBar.module.css';
 
 export function AddBar() {
@@ -7,7 +8,7 @@ export function AddBar() {
                <textarea
                     placeholder='Adicione uma nova tarefa'
                />
-               <button>Criar</button>
+               <button>Criar <PlusCircle size={16} /></button>
           </div>
           </>
      )
