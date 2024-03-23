@@ -23,9 +23,15 @@
 }
 
 .addbar button {
-     color: var(--gray-100);
      background: var(--blue-dark);
+     color: var(--gray-100);
      font-size: 1rem;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     gap: 0.5rem;
 
      border: 1px solid transparent;
      border-radius: 4px;
