@@ -46,3 +46,12 @@ export default {
 ****
 ### CSS Global
 - Aplicando variáveis de estilo com o seletor :root
+
+### Phosphor Icons
+```bash
+$ npm i phosphor-react
+```
+Importando a biblioteca em cada component
+```js
+import { icon-name } from 'phosphor-react';
+```
