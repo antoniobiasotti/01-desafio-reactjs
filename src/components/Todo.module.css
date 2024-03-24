@@ -1,9 +1,9 @@
-.todo {
+.todoCard {
      background: var(--gray-500);
      color: var(--gray-100);
 
      display: flex;
-     align-items: flex-start;
+     align-items: center;
      justify-content: center;
      padding: 1.25rem 0rem;
 
@@ -11,13 +11,22 @@
      border-radius: 8px;
 }
 
-.todo button {
+.todoCard button {
      background: transparent;
      border: 0;
 
      cursor: pointer;
 }
 
-.todo button:hover {
-     background: var(--gray-400);
+.todoCard button:hover {
+      color: var(--danger);
+
+     /* padding: 5px; */
+}
+
+.todo {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 1.25rem 0rem;
 }
