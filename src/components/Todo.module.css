@@ -4,8 +4,9 @@
 
      display: flex;
      align-items: center;
-     justify-content: center;
-     padding: 1.25rem 0rem;
+     padding: 1rem 1rem;
+
+     margin: 0 auto;
 
      width: 50%;
      border-radius: 8px;
@@ -27,6 +28,4 @@
 .todo {
      display: flex;
      align-items: center;
-     justify-content: center;
-     padding: 1.25rem 0rem;
-}
+ }
