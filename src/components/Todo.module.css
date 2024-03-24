@@ -1,0 +1,23 @@
+.todo {
+     background: var(--gray-500);
+     color: var(--gray-100);
+
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     padding: 1.25rem 0rem;
+
+     width: 50%;
+     border-radius: 8px;
+}
+
+.todo button {
+     background: transparent;
+     border: 0;
+
+     cursor: pointer;
+}
+
+.todo button:hover {
+     background: var(--gray-400);
+}

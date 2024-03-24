@@ -3,6 +3,7 @@ import styles from './App.module.css'
 import { AddBar } from './components/AddBar.tsx'
 import { Header } from './components/Header.tsx'
 import { TaskList } from './components/TaskList.tsx'
+import { Todo } from './components/Todo.tsx'
 
 import './global.css'
 
@@ -12,6 +13,7 @@ export function App() {
       <Header />
       <AddBar />
       <TaskList />
+      <Todo />
     </>
   )
 }
