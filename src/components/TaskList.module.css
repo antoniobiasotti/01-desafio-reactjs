@@ -13,6 +13,7 @@
      border: 1px solid transparent;
      border-radius: 1rem;
      padding: 0.25rem 0.45rem;
+     text-decoration: bold;
 }
 
 .tarefasCriadas {

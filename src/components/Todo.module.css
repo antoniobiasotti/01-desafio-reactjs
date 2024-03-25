@@ -7,6 +7,7 @@
      padding: 1rem 1rem;
 
      margin: 0 auto;
+     margin-top: 2rem;
 
      width: 50%;
      border-radius: 8px;
@@ -15,6 +16,8 @@
 .todoCard button {
      background: transparent;
      border: 0;
+
+     margin-left: 25rem;
 
      cursor: pointer;
 }
@@ -28,4 +31,33 @@
 .todo {
      display: flex;
      align-items: center;
+     justify-content: space-between;
+     gap: 1rem;
  }
+
+ .todo p {
+     justify-content: justify;
+ }
+
+ .todo input {
+     cursor: pointer;
+ }
+
+ .todo input:hover{
+     color: var(--blue-dark);
+ }
+
+ .todo input:checked + label {
+     color: var(--purple);
+     text-decoration: line-through;
+ }
+
+ .todo input[type="radio"]:focus {
+     outline: none;
+     color: var(--purple);
+ }
+
+ .todo button {
+     display: flex;
+ }
+

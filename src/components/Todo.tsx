@@ -7,7 +7,7 @@ export function Todo(){
           <div className={styles.todoCard}>
                <div className={styles.todo}>
                     <input type="radio"></input>
-                    <p>Estudar Reactjs</p>
+                    <label>Estudar Reactjs</label>
                     <button title="Deletar todo">
                          <Trash size={24} />
                     </button>

@@ -10,6 +10,7 @@
 .addbar textarea {
      color: var(--gray-100);
      background: var(--gray-500);
+      
      width: 50%;
 
      border: 0;
