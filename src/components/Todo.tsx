@@ -2,7 +2,10 @@ import styles from './Todo.module.css';
 
 import { Trash } from 'phosphor-react';
 
-export function Todo(){
+export function Todo(props){
+
+     console.log(props);
+
      return(
           <div className={styles.todoCard}>
                <div className={styles.todo}>

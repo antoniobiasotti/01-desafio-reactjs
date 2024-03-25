@@ -28,15 +28,19 @@ const todos = [
 
 export function App() {
   return (
-    <>
+    <article className={styles.app}>
       <Header />
       <AddBar />
       <TaskList />
       <main>
         {todos.map(todo => {
-          return <Todo />
+          return (
+            <Todo 
+              content={todo.content}
+            />
+          )
         })}
       </main>
-    </>
+    </article>
   )
 }
