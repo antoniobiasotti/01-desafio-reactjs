@@ -11,18 +11,12 @@ const todos = [
   {
        id: 1,
        isComplete: false,
-       content: [
-            {type: 'parapraph', 
-            content: 'Estudar Reactjs'}
-       ]    
+       content: 'Estudar Reactjs' 
   },
   {
         id: 2,
         isComplete: false,
-        content: [
-            {type: 'parapraph', 
-            content: 'Estudar Reactjs'}
-        ]    
+        content: 'Estudar Typescript'    
   }
 ];
 

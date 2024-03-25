@@ -1,9 +1,10 @@
-.todoCard {
+.todoList {
      background: var(--gray-500);
      color: var(--gray-100);
 
      display: flex;
-     align-items: center;
+     align-items: flex-start;
+     justify-content: space-between;
      padding: 1rem 1rem;
 
      margin: 0 auto;
@@ -13,17 +14,17 @@
      border-radius: 8px;
 }
 
-.todoCard button {
+.todo button {
      background: transparent;
      border: 0;
 
-     margin-left: 25rem;
+     margin-right: 5rem;
 
      cursor: pointer;
      transition: color 0.5s
 }
 
-.todoCard button:hover {
+.todo button:hover {
      color: var(--danger);
 
      /* padding: 5px; */
@@ -34,6 +35,13 @@
      align-items: center;
      justify-content: space-between;
      gap: 1rem;
+     padding: 1rem 1rem;
+ }
+
+ .todo label {
+    display: inline;
+    align-items: center;
+    width: 300px;
  }
 
  .todo p {
@@ -62,12 +70,11 @@
      border: 2px solid var(--purple);
  }
 
- .todo input:checked + label {
+ .todo input:checked {
      color: var(--purple);
-     text-decoration: line-through;
  }
 
- .todo button {
-     display: flex;
- }
+ .todo input:checked + label {
+    text-decoration: line-through;
+}
 
