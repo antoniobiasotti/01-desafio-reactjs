@@ -7,7 +7,7 @@ export function AddBar() {
                <textarea
                     placeholder='Adicione uma nova tarefa'
                />
-               <button>
+               <button type="submit">
                     Criar 
                     <PlusCircle size={16} />
                </button>
