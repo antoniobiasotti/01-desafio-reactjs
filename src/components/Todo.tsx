@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import styles from './Todo.module.css';
 
 import { Trash } from 'phosphor-react';
@@ -5,6 +6,11 @@ import { Trash } from 'phosphor-react';
 export function Todo({ content }){
 
      // console.log(props);
+
+     const [todos] = useState([
+          1,
+          2,
+     ])
 
      return(
           <div className={styles.todoList}>
