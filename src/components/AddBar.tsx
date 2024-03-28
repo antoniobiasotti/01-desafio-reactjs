@@ -1,7 +1,11 @@
-import { PlusCircle } from 'phosphor-react';
+import { Placeholder, PlusCircle } from 'phosphor-react';
 import styles from './AddBar.module.css';
 
 export function AddBar() {
+
+     function handleDescribeNewTodo() {
+          Placeholder = ""
+     }
 
      function handleCreateNewTodo(event) {
           event.preventDefault()
@@ -13,8 +17,9 @@ export function AddBar() {
 
      return(
           <div className={styles.addbar}>
-               <textarea
+               <textarea onClick={handleDescribeNewTodo}
                     placeholder='Adicione uma nova tarefa'
+                    required
                />
                <button onSubmit={handleCreateNewTodo} type="submit">
                     Criar 
