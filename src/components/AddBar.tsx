@@ -1,10 +1,9 @@
-import { Placeholder, PlusCircle } from 'phosphor-react';
+import { PlusCircle } from 'phosphor-react';
 import styles from './AddBar.module.css';
 
 export function AddBar() {
 
-     function handleDescribeNewTodo() {
-          Placeholder = ""
+     function handleDescribeNewTodo() { 
      }
 
      function handleCreateNewTodo(event) {
