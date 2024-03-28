@@ -26,7 +26,6 @@ export function App() {
       <Header />
       <AddBar />
       <TaskList />
-      <main>
         {todos.map(todo => {
           return (
             <Todo 
@@ -34,7 +33,6 @@ export function App() {
             />
           )
         })}
-      </main>
     </article>
   )
 }
