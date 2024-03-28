@@ -1,4 +1,4 @@
-.todoList {
+main {
      background: var(--gray-500);
      color: var(--gray-100);
 
@@ -28,17 +28,21 @@
 }
 
 .todo {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     gap: 1rem;
-     padding: 0 1rem;
 
-     border: 2px solid var(--gray-300);
-     border-radius: 8px;
+    background: var(--gray-500);
+    color: var(--gray-100);
 
-     width: 730px;
-     height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 1rem;
+
+    border: 2px solid var(--gray-300);
+    border-radius: 8px;
+
+    width: 730px;
+    height: 72px;
  }
 
  .todo label {

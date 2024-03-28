@@ -13,7 +13,7 @@ export function Todo({ content }){
      ])
 
      return(
-          <div>
+          <main>
                <div className={styles.todo}>
                     <input type="radio"></input>
                     <label>{content}</label>
@@ -21,6 +21,6 @@ export function Todo({ content }){
                          <Trash size={24} />
                     </button>
                </div>
-          </div>
+          </main>
      )
 }
