@@ -13,7 +13,7 @@ export function Todo({ content }){
      ])
 
      return(
-          <div className={styles.todoList}>
+          <div>
                <div className={styles.todo}>
                     <input type="radio"></input>
                     <label>{content}</label>

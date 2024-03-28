@@ -9,9 +9,6 @@
 
      margin: 0 auto;
      margin-top: 2rem;
-
-     width: 50%;
-     border-radius: 8px;
 }
 
 .todo button {
@@ -36,6 +33,12 @@
      justify-content: space-between;
      gap: 1rem;
      padding: 0 1rem;
+
+     border: 2px solid var(--gray-300);
+     border-radius: 8px;
+
+     width: 730px;
+     height: 72px;
  }
 
  .todo label {
