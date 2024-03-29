@@ -21,6 +21,11 @@ const todos = [
 ];
 
 export function App() {
+
+  const handleAddTodo = 
+
+  const handleDeleteTodo = 
+  
   return (
     <article className={styles.app}>
       <Header />
