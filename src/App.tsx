@@ -28,7 +28,8 @@ export function App() {
       <TaskList />
         {todos.map(todo => {
           return (
-            <Todo 
+            <Todo
+              key={todo.id} 
               content={todo.content}
             />
           )

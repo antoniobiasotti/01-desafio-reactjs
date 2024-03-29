@@ -1,7 +1,7 @@
 import { PlusCircle } from 'phosphor-react';
 import styles from './AddBar.module.css';
 
-export function AddBar() {
+export function AddBar(todos) {
 
      function handleDescribeNewTodo() { 
      }
@@ -9,7 +9,7 @@ export function AddBar() {
      function handleCreateNewTodo(event) {
           event.preventDefault()
 
-          // todos.push(3);
+          todos.push(3);
 
           console.log('oi');
      }
