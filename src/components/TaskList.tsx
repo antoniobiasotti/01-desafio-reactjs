@@ -1,8 +1,6 @@
 import { ClipboardText } from 'phosphor-react';
 import styles from './TaskList.module.css';
 
-import { Todo } from './Todo';
-
 export function TaskList() {
      return(
           <article>

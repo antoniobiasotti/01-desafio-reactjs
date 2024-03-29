@@ -5,12 +5,7 @@ import { Trash } from 'phosphor-react';
 
 export function Todo({ content }){
 
-     // console.log(props);
-
-     const [todos] = useState([
-          1,
-          2,
-     ])
+     // console.log(content);
 
      return(
           <main>

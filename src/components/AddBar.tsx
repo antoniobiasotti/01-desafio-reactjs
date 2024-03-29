@@ -15,15 +15,15 @@ export function AddBar() {
      }
 
      return(
-          <div className={styles.addbar}>
+          <form onSubmit={handleCreateNewTodo} className={styles.addbar}>
                <textarea onClick={handleDescribeNewTodo}
                     placeholder='Adicione uma nova tarefa'
                     required
                />
-               <button onSubmit={handleCreateNewTodo} type="submit">
+               <button type="submit">
                     Criar 
                     <PlusCircle size={16} />
                </button>
-          </div>
+          </form>
      )
 }
