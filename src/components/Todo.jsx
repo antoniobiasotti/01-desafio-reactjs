@@ -3,7 +3,7 @@ import styles from './Todo.module.css';
 
 import { Trash } from 'phosphor-react';
 
-export function Todo({ props }){
+export function Todo(props){
 
      
      // console.log(content);
@@ -12,8 +12,8 @@ export function Todo({ props }){
           <main>
                <div className={styles.todo}>
                     <input type="radio"></input>
-                    <label>{content}</label>
-                    <button onClick={handleDeleteClick} title="Deletar todo">
+                    <label>{props.content}</label>
+                    <button title="Deletar todo">
                          <Trash size={24} />
                     </button>
                </div>
