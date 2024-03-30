@@ -22,9 +22,9 @@ const todos = [
 
 export function App() {
 
-  const handleAddTodo = 
+  // const handleAddTodo = 
 
-  const handleDeleteTodo = 
+  // const handleDeleteTodo = 
   
   return (
     <article className={styles.app}>
